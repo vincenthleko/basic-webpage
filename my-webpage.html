@@ -9,6 +9,7 @@
         body {
             background-color: #C6C5B9;
         }
+
         #table-mountain-image {
             width: auto;
             height: 300px;
@@ -34,8 +35,13 @@
         #constitutional-hill,
         #walter-sisulu,
         #jhb-fort {
-            width: 300px;
-            height: auto;
+            width: 150px;
+            height: 150px;
+        }
+
+        .sub {
+            display: flex;
+            grid-gap: 50px;
         }
 
         @media (min-width: 960px) {
@@ -50,12 +56,19 @@
                 display: flex;
                 justify-content: space-between;
                 align-content: space-between;
+                grid-gap: 50px;
             }
 
             .places {
                 display: flex;
                 justify-content: space-between;
                 align-content: space-between;
+                grid-gap: 50px;
+            }
+
+            .name {
+                display: flex;
+                grid-gap: 50px;
             }
 
 
@@ -67,9 +80,11 @@
 
     <div>
         <h1>Personal Webpage</h1>
-        <h3>VINCENT ITUMELENG HLEKO</h3>
-        <img src="./images\20220924_121629[1]-Photoroom (1).png"
-            id="table-mountain-image">
+        <div class="name">
+            <h3>VINCENT ITUMELENG HLEKO</h3>
+            <img src="./images\20220924_121629[1]-Photoroom (1).png" id="table-mountain-image">
+        </div>
+
     </div>
 
     <div>
@@ -133,67 +148,109 @@
         <div class="subjects">
             <div>
                 <h3>Mathematics (statistics)</h3>
-                <div>Qualification: BSc in life and environmental science</div>
-                <div>Institution: University of Johannesburg</div>
-                <img src="https://online.stat.psu.edu/statprogram/sites/statprogram/files/2018-08/statistics-review.jpg"
-                    id="statistics-image">
+                <div class="sub">
+                    <div>
+                        <div>Qualification: BSc in life and environmental science</div>
+                        <div>Institution: University of Johannesburg</div>
+                    </div>
+                    <div>
+                        <img src="https://online.stat.psu.edu/statprogram/sites/statprogram/files/2018-08/statistics-review.jpg"
+                            id="statistics-image">
+                    </div>
+                </div>
+
             </div>
+
             <div>
                 <h3>Organic Chemistry</h3>
-                <div>Qualification: BSc in life and environmental science</div>
-                <div>Institution: University of Johannesburg</div>
-                <img src="https://thumbs.dreamstime.com/b/organic-chemistry-vector-colored-outline-round-illustration-concept-style-dark-background-147229210.jpg"
-                    id="organic-chem-image">
+                <div class="sub">
+                    <div>
+                        <div>Qualification: BSc in life and environmental science</div>
+                        <div>Institution: University of Johannesburg</div>
+                    </div>
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/b/organic-chemistry-vector-colored-outline-round-illustration-concept-style-dark-background-147229210.jpg"
+                            id="organic-chem-image">
+                    </div>
+                </div>
+
             </div>
 
             <div>
                 <h3>Physics</h3>
-                <div>Qualification: BSc in life and environmental science</div>
-                <div>Institution: University of Johannesburg</div>
-                <img src="https://miro.medium.com/v2/resize:fit:1024/1*bWlRl9D3jkJR06_oO0cP_Q.png" id="physics-image">
+                <div class="sub">
+                    <div>
+                        <div>Qualification: BSc in life and environmental science</div>
+                        <div>Institution: University of Johannesburg</div>
+                    </div>
+                    <div>
+                        <img src="https://miro.medium.com/v2/resize:fit:1024/1*bWlRl9D3jkJR06_oO0cP_Q.png"
+                            id="physics-image">
+                    </div>
+                </div>
             </div>
+
         </div>
+    </div>
 
 
-        <div>
-            <h2>Historical places in my city</h2>
-            <div class="places">
-                <div class="constitutional-hill">
+    <div>
+        <h2>Historical places in my city</h2>
+        <div class="places">
+            <div class="subjects">
+             
+                <div>
                     <h3>Constitutional hill human right precinct</h3>
-                    <div>Home to the Constitutional Court of South Africa- the highest court in the country on
-                        constitutional
-                        matters</div>
-                    <div>Once a place of injustice and brutality, where South Africa's leading political activists,
-                        including
-                        Nelson Mandela and Mahatma Gandhi, were detained</div>
-                    <div>Number Four Museum, and Old Fort Museum</div>
-                    <img src="./images\constitutional hill[1]-Photoroom.jpeg"
-                        id="constitutional-hill">
+                    <div class="sub">
+                        <ul>
+                            <li>Home to the Constitutional Court of South Africa- the highest court in the country on
+                                constitutional
+                                matters</li>
+                            <li>Once a place of injustice and brutality, where South Africa's leading political activists,
+                                including
+                                Nelson Mandela and Mahatma Gandhi, were detained</li>
+                            <li>Number Four Museum, and Old Fort Museum</li>
+                        </ul>
+    
+                        <img src="./images\constitutional hill[1]-Photoroom.jpeg" id="constitutional-hill">
+                    </div>
+
                 </div>
-                <div class="walter-sisulu">
+                
+
+                <div>
                     <h3>Walter Sisulu square</h3>
-                    <div>1. The Square celebrate what township life is all about, its people, their spirit, their passion
-                        and
-                        aspirations.</div>
-                    <div>2. The square has over 10 retail shop, 6 commercial offices, banks and service providers.</div>
-                    <div>3. Walter Sisulu Square in the heart of Kliptown , Soweto, is South Africa’s first township
-                        entertainment
-                        explosion centre.</div>
-                    <img src="./images\walter sisulu-Photoroom.jpeg"
-                        id="walter-sisulu">
+                    <div class="sub">
+                        <ul>
+                            <li>The Square celebrate what township life is all about, its people, their spirit, their
+                                passion
+                                and
+                                aspirations.</li>
+                            <li>The square has over 10 retail shop, 6 commercial offices, banks and service
+                                providers.</li>
+                            <li>Walter Sisulu Square in the heart of Kliptown , Soweto, is South Africa’s first
+                                township
+                                entertainment
+                                explosion centre.</li>
+                        </ul>
+
+                        <img src="./images\walter sisulu-Photoroom.jpeg" id="walter-sisulu">
+                    </div>
                 </div>
-                <div class="jhb-fort">
+
+                <div>
                     <h3>Johannesburg Fort </h3>
-
-                    <div>1. Built in 1893 by President Paul Kruger.</div>
-                    <div>2. Johannesburg's first prison and first military fort.</div>
-                    <div>3. Nelson Mandela was the only black prisoner to serve time at the Old Fort.</div>
-
-                    <img src="./images\johannesburg.fort-Photoroom (1).jpeg"
-                        id="jhb-fort">
+                    <div class="sub">
+                        <ul>
+                            <li>Built in 1893 by President Paul Kruger.</li>
+                            <li>Nelson Mandela was the only black prisoner to serve time at the Old Fort.</li>
+                            <li>Johannesburg's first prison and first military fort.</li>
+                        </ul>
+                        <img src="./images\johannesburg.fort-Photoroom (1).jpeg" id="jhb-fort">
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
 
 </body>
