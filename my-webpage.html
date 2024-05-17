@@ -45,6 +45,7 @@
         }
 
         @media (min-width: 960px) {
+            
             .city {
                 display: flex;
                 justify-content: space-between;
@@ -70,9 +71,15 @@
                 display: flex;
                 grid-gap: 50px;
             }
-
-
+    
         }
+        @media (max-width: 960px) {
+            .mid-text {
+                order: 1;
+            }
+        }
+
+        
     </style>
 </head>
 
@@ -149,6 +156,7 @@
             <div>
                 <h3>Mathematics (statistics)</h3>
                 <div class="sub">
+                    
                     <div>
                         <div>Qualification: BSc in life and environmental science</div>
                         <div>Institution: University of Johannesburg</div>
@@ -157,6 +165,7 @@
                         <img src="https://online.stat.psu.edu/statprogram/sites/statprogram/files/2018-08/statistics-review.jpg"
                             id="statistics-image">
                     </div>
+                    
                 </div>
 
             </div>
@@ -164,7 +173,8 @@
             <div>
                 <h3>Organic Chemistry</h3>
                 <div class="sub">
-                    <div>
+                   
+                    <div class="mid-text">
                         <div>Qualification: BSc in life and environmental science</div>
                         <div>Institution: University of Johannesburg</div>
                     </div>
@@ -172,6 +182,7 @@
                         <img src="https://thumbs.dreamstime.com/b/organic-chemistry-vector-colored-outline-round-illustration-concept-style-dark-background-147229210.jpg"
                             id="organic-chem-image">
                     </div>
+                    
                 </div>
 
             </div>
@@ -179,6 +190,7 @@
             <div>
                 <h3>Physics</h3>
                 <div class="sub">
+                   
                     <div>
                         <div>Qualification: BSc in life and environmental science</div>
                         <div>Institution: University of Johannesburg</div>
@@ -187,6 +199,7 @@
                         <img src="https://miro.medium.com/v2/resize:fit:1024/1*bWlRl9D3jkJR06_oO0cP_Q.png"
                             id="physics-image">
                     </div>
+                   
                 </div>
             </div>
 
@@ -221,20 +234,23 @@
                 <div>
                     <h3>Walter Sisulu square</h3>
                     <div class="sub">
-                        <ul>
-                            <li>The Square celebrate what township life is all about, its people, their spirit, their
-                                passion
-                                and
-                                aspirations.</li>
-                            <li>The square has over 10 retail shop, 6 commercial offices, banks and service
-                                providers.</li>
-                            <li>Walter Sisulu Square in the heart of Kliptown , Soweto, is South Africa’s first
-                                township
-                                entertainment
-                                explosion centre.</li>
-                        </ul>
-
-                        <img src="./images\walter sisulu-Photoroom.jpeg" id="walter-sisulu">
+                        <div class="mid-text">
+                            <ul>
+                                <li>The Square celebrate what township life is all about, its people, their spirit, their
+                                    passion
+                                    and
+                                    aspirations.</li>
+                                <li>The square has over 10 retail shop, 6 commercial offices, banks and service
+                                    providers.</li>
+                                <li>Walter Sisulu Square in the heart of Kliptown , Soweto, is South Africa’s first
+                                    township
+                                    entertainment
+                                    explosion centre.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="./images\walter sisulu-Photoroom.jpeg" id="walter-sisulu">
+                        </div>
                     </div>
                 </div>
 
